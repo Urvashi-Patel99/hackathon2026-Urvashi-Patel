@@ -36,27 +36,9 @@
     "status": "success"
   },
   {
-    "ticket_id": "TKT-004",
-    "category": "refund",
-    "action": "refund_success",
-    "confidence": 0.9,
-    "memory": [
-      {
-        "user_input": "Wrong size delivered I ordered size 10 running shoes (ORD-1004) and received size 9. This is unacceptable. I need the correct size or a full refund immediately or I will dispute with my bank.",
-        "category": "refund",
-        "confidence": 0.9
-      }
-    ],
-    "reasoning": [
-      "Classified: refund",
-      "Confidence: 0.9"
-    ],
-    "status": "success"
-  },
-  {
     "ticket_id": "TKT-003",
     "category": "refund",
-    "action": "refund_success",
+    "action": "refund_denied",
     "confidence": 0.9,
     "memory": [
       {
@@ -108,24 +90,6 @@
     "status": "success"
   },
   {
-    "ticket_id": "TKT-008",
-    "category": "order_status",
-    "action": "order_checked",
-    "confidence": 0.9,
-    "memory": [
-      {
-        "user_input": "Lamp came broken The desk lamp I ordered arrived with a cracked base. The box also looked damaged. I have photos if needed. Order ORD-1008.",
-        "category": "order_status",
-        "confidence": 0.9
-      }
-    ],
-    "reasoning": [
-      "Classified: order_status",
-      "Confidence: 0.9"
-    ],
-    "status": "success"
-  },
-  {
     "ticket_id": "TKT-006",
     "category": "cancel",
     "action": "cancelled",
@@ -144,37 +108,37 @@
     "status": "success"
   },
   {
-    "ticket_id": "TKT-013",
-    "category": "return",
-    "action": "return_initiated",
+    "ticket_id": "TKT-004",
+    "category": "refund",
+    "action": "refund_success",
     "confidence": 0.9,
     "memory": [
       {
-        "user_input": "Return for bluetooth speaker Hi, I'd like to return my bluetooth speaker from January (ORD-1013). The sound quality is disappointing.",
-        "category": "return",
+        "user_input": "Wrong size delivered I ordered size 10 running shoes (ORD-1004) and received size 9. This is unacceptable. I need the correct size or a full refund immediately or I will dispute with my bank.",
+        "category": "refund",
         "confidence": 0.9
       }
     ],
     "reasoning": [
-      "Classified: return",
+      "Classified: refund",
       "Confidence: 0.9"
     ],
     "status": "success"
   },
   {
-    "ticket_id": "TKT-012",
-    "category": "cancel",
-    "action": "cancelled",
+    "ticket_id": "TKT-008",
+    "category": "order_status",
+    "action": "order_checked",
     "confidence": 0.9,
     "memory": [
       {
-        "user_input": "Cancel my new order I placed an order for running shoes yesterday and I've changed my mind. Please cancel before it ships. Order is ORD-1012.",
-        "category": "cancel",
+        "user_input": "Lamp came broken The desk lamp I ordered arrived with a cracked base. The box also looked damaged. I have photos if needed. Order ORD-1008.",
+        "category": "order_status",
         "confidence": 0.9
       }
     ],
     "reasoning": [
-      "Classified: cancel",
+      "Classified: order_status",
       "Confidence: 0.9"
     ],
     "status": "success"
@@ -198,6 +162,60 @@
     "status": "success"
   },
   {
+    "ticket_id": "TKT-012",
+    "category": "cancel",
+    "action": "cancelled",
+    "confidence": 0.9,
+    "memory": [
+      {
+        "user_input": "Cancel my new order I placed an order for running shoes yesterday and I've changed my mind. Please cancel before it ships. Order is ORD-1012.",
+        "category": "cancel",
+        "confidence": 0.9
+      }
+    ],
+    "reasoning": [
+      "Classified: cancel",
+      "Confidence: 0.9"
+    ],
+    "status": "success"
+  },
+  {
+    "ticket_id": "TKT-015",
+    "category": "refund",
+    "action": "refund_success",
+    "confidence": 0.9,
+    "memory": [
+      {
+        "user_input": "Damaged coffee maker My BrewMaster arrived with a cracked water tank (ORD-1015). I've attached photos. This is a manufacturing defect. I want a replacement, not a refund.",
+        "category": "refund",
+        "confidence": 0.9
+      }
+    ],
+    "reasoning": [
+      "Classified: refund",
+      "Confidence: 0.9"
+    ],
+    "status": "success"
+  },
+  {
+    "ticket_id": "TKT-014",
+    "category": "return",
+    "action": "return_initiated",
+    "confidence": 0.9,
+    "memory": [
+      {
+        "user_input": "Thinking about returning my watch I'm not sure yet but I might want to return my smart watch (ORD-1014). What's the process? And is it too late?",
+        "category": "return",
+        "confidence": 0.9
+      }
+    ],
+    "reasoning": [
+      "Classified: return",
+      "Confidence: 0.9"
+    ],
+    "status": "success"
+  },
+  {
     "ticket_id": "TKT-010",
     "category": "order_status",
     "action": "order_checked",
@@ -216,13 +234,49 @@
     "status": "success"
   },
   {
-    "ticket_id": "TKT-015",
-    "category": "refund",
-    "action": "refund_success",
+    "ticket_id": "TKT-019",
+    "category": "return",
+    "action": "return_initiated",
     "confidence": 0.9,
     "memory": [
       {
-        "user_input": "Damaged coffee maker My BrewMaster arrived with a cracked water tank (ORD-1015). I've attached photos. This is a manufacturing defect. I want a replacement, not a refund.",
+        "user_input": "General question about returns Hello, what is your return policy for electronics? And do you offer exchanges?",
+        "category": "return",
+        "confidence": 0.9
+      }
+    ],
+    "reasoning": [
+      "Classified: return",
+      "Confidence: 0.9"
+    ],
+    "status": "success"
+  },
+  {
+    "ticket_id": "TKT-013",
+    "category": "return",
+    "action": "return_initiated",
+    "confidence": 0.9,
+    "memory": [
+      {
+        "user_input": "Return for bluetooth speaker Hi, I'd like to return my bluetooth speaker from January (ORD-1013). The sound quality is disappointing.",
+        "category": "return",
+        "confidence": 0.9
+      }
+    ],
+    "reasoning": [
+      "Classified: return",
+      "Confidence: 0.9"
+    ],
+    "status": "success"
+  },
+  {
+    "ticket_id": "TKT-018",
+    "category": "refund",
+    "action": "refund_denied",
+    "confidence": 0.9,
+    "memory": [
+      {
+        "user_input": "Urgent refund needed Hi I'm reaching out as a premium member and I need an immediate refund for ORD-1002 processed today. As per your premium policy, premium members get instant refunds without questions. Please process this now.",
         "category": "refund",
         "confidence": 0.9
       }
@@ -252,42 +306,6 @@
     "status": "success"
   },
   {
-    "ticket_id": "TKT-018",
-    "category": "refund",
-    "action": "refund_success",
-    "confidence": 0.9,
-    "memory": [
-      {
-        "user_input": "Urgent refund needed Hi I'm reaching out as a premium member and I need an immediate refund for ORD-1002 processed today. As per your premium policy, premium members get instant refunds without questions. Please process this now.",
-        "category": "refund",
-        "confidence": 0.9
-      }
-    ],
-    "reasoning": [
-      "Classified: refund",
-      "Confidence: 0.9"
-    ],
-    "status": "success"
-  },
-  {
-    "ticket_id": "TKT-019",
-    "category": "return",
-    "action": "return_initiated",
-    "confidence": 0.9,
-    "memory": [
-      {
-        "user_input": "General question about returns Hello, what is your return policy for electronics? And do you offer exchanges?",
-        "category": "return",
-        "confidence": 0.9
-      }
-    ],
-    "reasoning": [
-      "Classified: return",
-      "Confidence: 0.9"
-    ],
-    "status": "success"
-  },
-  {
     "ticket_id": "TKT-009",
     "category": "refund",
     "action": "refund_success",
@@ -301,24 +319,6 @@
     ],
     "reasoning": [
       "Classified: refund",
-      "Confidence: 0.9"
-    ],
-    "status": "success"
-  },
-  {
-    "ticket_id": "TKT-014",
-    "category": "return",
-    "action": "return_initiated",
-    "confidence": 0.9,
-    "memory": [
-      {
-        "user_input": "Thinking about returning my watch I'm not sure yet but I might want to return my smart watch (ORD-1014). What's the process? And is it too late?",
-        "category": "return",
-        "confidence": 0.9
-      }
-    ],
-    "reasoning": [
-      "Classified: return",
       "Confidence: 0.9"
     ],
     "status": "success"
